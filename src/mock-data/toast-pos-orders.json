@@ -1,0 +1,158 @@
+[
+  {
+    "guid": "order-001-dine-in-approved",
+    "entityType": "Order",
+    "externalId": "order-1001",
+    "openedDate": "2026-04-14T10:00:00.000Z",
+    "modifiedDate": "2026-04-14T10:05:00.000Z",
+    "diningOption": {
+      "guid": "374d500f-c6d8-44d0-a18d-43fe5e7f750c",
+      "entityType": "DiningOption",
+      "externalId": "dine-in"
+    },
+    "checks": [
+      {
+        "guid": "check-001",
+        "tabName": "Reservation Partner - John D",
+        "totalAmount": 25.5,
+        "paymentStatus": "PAID",
+        "selections": []
+      }
+    ],
+    "table": {
+      "guid": "tbleasttableone000000001",
+      "entityType": "Table",
+      "externalId": "east-t1"
+    },
+    "revenueCenter": {
+      "guid": "clrevceast000000000000000001",
+      "entityType": "RevenueCenter",
+      "externalId": "dc-oaks-east-rc-main"
+    },
+    "numberOfGuests": 2,
+    "approvalStatus": "APPROVED",
+    "createdDate": "2026-04-14T09:55:00.000Z"
+  },
+  {
+    "guid": "order-002-takeout-needs-approval",
+    "entityType": "Order",
+    "externalId": "order-1002",
+    "openedDate": "2026-04-14T11:00:00.000Z",
+    "diningOption": {
+      "guid": "674d500f-c6d8-44d0-a18d-43fe5e7f750d",
+      "entityType": "DiningOption",
+      "externalId": "take-out"
+    },
+    "checks": [
+      {
+        "guid": "check-002",
+        "tabName": "Takeout - Jane S",
+        "totalAmount": 15,
+        "paymentStatus": "OPEN",
+        "selections": []
+      }
+    ],
+    "numberOfGuests": 1,
+    "approvalStatus": "NEEDS_APPROVAL",
+    "createdDate": "2026-04-14T10:55:00.000Z"
+  },
+  {
+    "guid": "order-003-delivery-future",
+    "entityType": "Order",
+    "externalId": "order-1003",
+    "openedDate": "2026-04-15T18:00:00.000Z",
+    "promisedDate": "2026-04-15T18:30:00.000Z",
+    "diningOption": {
+      "guid": "974d500f-c6d8-44d0-a18d-43fe5e7f750e",
+      "entityType": "DiningOption",
+      "externalId": "delivery"
+    },
+    "checks": [
+      {
+        "guid": "check-003",
+        "tabName": "Delivery - Bob B",
+        "totalAmount": 45,
+        "paymentStatus": "OPEN",
+        "selections": []
+      }
+    ],
+    "approvalStatus": "FUTURE",
+    "createdDate": "2026-04-14T12:00:00.000Z"
+  },
+  {
+    "guid": "order-004-dine-in-not-approved",
+    "entityType": "Order",
+    "externalId": "order-1004",
+    "openedDate": "2026-04-14T12:00:00.000Z",
+    "diningOption": {
+      "guid": "374d500f-c6d8-44d0-a18d-43fe5e7f750c",
+      "entityType": "DiningOption",
+      "externalId": "dine-in"
+    },
+    "checks": [
+      {
+        "guid": "check-004",
+        "tabName": "Reservation Partner - Alice W",
+        "totalAmount": 0,
+        "paymentStatus": "OPEN",
+        "selections": []
+      }
+    ],
+    "table": {
+      "guid": "tbleasttabletwo000000001",
+      "entityType": "Table",
+      "externalId": "east-t2"
+    },
+    "approvalStatus": "NOT_APPROVED",
+    "createdDate": "2026-04-14T11:55:00.000Z"
+  },
+  {
+    "guid": "order-005-voided",
+    "entityType": "Order",
+    "externalId": "order-1005",
+    "openedDate": "2026-04-14T08:00:00.000Z",
+    "diningOption": {
+      "guid": "374d500f-c6d8-44d0-a18d-43fe5e7f750c",
+      "entityType": "DiningOption",
+      "externalId": "dine-in"
+    },
+    "checks": [
+      {
+        "guid": "check-005",
+        "tabName": "Voided Order",
+        "totalAmount": 20,
+        "paymentStatus": "VOIDED",
+        "selections": []
+      }
+    ],
+    "voided": true,
+    "voidDate": "2026-04-14T08:30:00.000Z",
+    "approvalStatus": "APPROVED",
+    "createdDate": "2026-04-14T07:55:00.000Z"
+  },
+  {
+    "guid": "463f41c4-64d2-45e1-acc5-1f04f03af6f8",
+    "entityType": "Order",
+    "externalId": "order-463f41c4",
+    "diningOption": {
+      "guid": "reserve-dine-in"
+    },
+    "checks": [
+      {
+        "guid": "a6ae8c13-439a-4ec3-bb46-2d42afc745d8",
+        "tabName": "T - adio",
+        "totalAmount": 0,
+        "paymentStatus": "OPEN"
+      }
+    ],
+    "table": {
+      "guid": "tblwesttableone000000001"
+    },
+    "revenueCenter": {
+      "guid": "revenue-center-reservations"
+    },
+    "numberOfGuests": 2,
+    "approvalStatus": "APPROVED",
+    "createdDate": "2026-04-17T11:57:06.774Z"
+  }
+]
