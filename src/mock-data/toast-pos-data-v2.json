@@ -9,7 +9,7 @@
       "tokenType": "Bearer",
       "scope": "menus:read orders:read guest.pi:read labor:read labor.employees:read config:read restaurants:read",
       "expiresIn": 86400,
-      "accessToken": "REDACTED_ACCESS_TOKEN",
+      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDliMTczNmUyYTdkNzVkZjBmMzZiZjAiLCJ1c2VyVHlwZSI6IlVTR",
       "idToken": null,
       "refreshToken": null
     },
