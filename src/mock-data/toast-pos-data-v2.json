@@ -4,12 +4,16 @@
     "generatedAt": "2026-05-01T20:18:21.939Z"
   },
   "account": {
-    "guid": "toast-mock-account-guid",
-    "externalId": "toast-mock-account",
-    "name": "Toast Mock Account",
-    "restaurantExternalIds": [
-      "fe514e68-434e-45f9-8cce-4d2bb87c71b3"
-    ]
+    "@class": ".SuccessfulResponse",
+    "token": {
+      "tokenType": "Bearer",
+      "scope": "menus:read orders:read guest.pi:read labor:read labor.employees:read config:read restaurants:read",
+      "expiresIn": 86400,
+      "accessToken": "REDACTED_ACCESS_TOKEN",
+      "idToken": null,
+      "refreshToken": null
+    },
+    "status": "SUCCESS"
   },
   "byRestaurantExternalId": {
     "fe514e68-434e-45f9-8cce-4d2bb87c71b3": {
